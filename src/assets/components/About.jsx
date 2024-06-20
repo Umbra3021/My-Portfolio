@@ -1,5 +1,7 @@
 import { Button } from "@mui/material";
 import React from "react";
+import lap from "../images/lap.jpg"
+
 import TextTransition ,{presets} from "react-text-transition";
 
 const TEXTS = ['Web developer', 'ML developer', 'Data Scientist'];
@@ -16,11 +18,12 @@ const About = ()=>{
       return () => clearTimeout(intervalId);
     }, []);
 
+    
 
     return(
-        <div className="about flex flex-wrap gap-8 sm:flex-nowrap pt-40 pb-10 sm:pt-40 pb-40">
+        <div className="about flex flex-wrap gap-8 sm:flex-nowrap pt-20 pb-10 sm:pt-40 pb-40">
             <div className="flex-basis-1/2">
-                <img src="https://placehold.co/800x800" className="sm:mx-10" />
+                <img src={lap} className="sm:mx-10" />
             </div>
             <div className="">
                 <div className="mx-5 sm:mx-10">
@@ -38,7 +41,9 @@ const About = ()=>{
                         <h3 className="mb-5">Age : <span className="font-normal">22</span></h3>
                         <h3 className="mb-5">Email : <span className="font-normal">abhisheksengupta2701@gmail.com</span></h3>
                         <h3 className="mb-10">Contact no : <span className="font-normal">6290532684</span></h3>
-                        <Button variant="contained">Download Cv</Button>
+                        <a href="https://drive.google.com/uc?export=download&id=1jm0yj1ogrm9JkWRUp7lX-VttR3jPVmc0" download="Abhishek Resume" target={"_blank"}> 
+                            <Button variant="contained"  >Download Cv</Button>
+                        </a>
                     </div>
                 </div>
             </div>

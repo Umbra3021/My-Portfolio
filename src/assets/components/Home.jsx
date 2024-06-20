@@ -1,5 +1,7 @@
 import React from "react";
 import { styled } from "styled-components";
+import pic from "../images/mee.png"
+import lap from "../images/lap.jpg"
 
 const Home = () =>{
     return(
@@ -11,8 +13,8 @@ const Home = () =>{
                    
                     
                 </div>
-                <div className="ml-15 mb-60 px-10">
-                    <img src="https://placehold.co/1600x1000" alt="pic" className="mt-20"/>
+                <div className="ml-15 mb-20 px-10">
+                    <img src={pic} alt="pic" className=""/>
                     
                 </div>
 

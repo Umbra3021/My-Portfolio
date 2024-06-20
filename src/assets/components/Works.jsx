@@ -13,7 +13,7 @@ const Works = ()=>{
 
             <div className="flex flex-wrap justify-evenly items-center font-semibold sm:flex-nowrap text-white">
                 
-                <div className="mx-5 mb-5 rounded-3xl border-2 border-white w-full sm:w-1/3">
+                <div className="mx-5 mb-5 rounded-3xl  w-full sm:w-1/3">
                     <div className="flex justify-center items-center relative">
                         <img src={poke}  title="pokemon" className=" z-20 transition ease-in-out delay-150 hover:z-0 hover:-translate-y-1 hover:scale-110 hover:duration-300 hover:opacity-50"/>\
                         

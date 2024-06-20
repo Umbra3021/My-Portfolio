@@ -8,7 +8,7 @@ import ds from "../images/ds.svg";
 
 const Skills = ()=>{
     return(
-        <div className="skill pt-40">
+        <div className="skill pt-10">
             <div className="pb-20">
                 <h1 className="text-center text-5xl font-bold sm:text-7xl">MY <span className="text-red-500">SERVICES</span></h1>
             </div>
